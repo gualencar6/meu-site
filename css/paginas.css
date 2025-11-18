@@ -1,0 +1,119 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GERAL */
+body {
+    font-family: "Georgia", serif;
+    background-color: #f4f1ea;
+    color: #2b2b2b;
+    line-height: 1.6;
+    padding: 0 10px;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #3b2f2f, #5c4438);
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 4px solid #ba8c63;
+}
+
+header h1 {
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+header nav a:hover {
+    color: #ba8c63;
+}
+
+/* MAIN */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+main h2 {
+    color: #5c4438;
+    border-left: 5px solid #ba8c63;
+    padding-left: 10px;
+    margin: 25px 0 15px;
+    font-size: 1.5rem;
+}
+
+main p {
+    margin-bottom: 15px;
+}
+
+/* BOTÃO DE NAVEGAÇÃO ENTRE LIVROS */
+div > div a {
+    display: inline-block;
+    margin: 20px auto;
+    background: #e9ded2;
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 1px solid #c9b7a2;
+    text-decoration: none;
+    color: #3b2f2f;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+div > div a:hover {
+    background: #d8c4ad;
+    transform: translateX(5px);
+}
+
+/* LINHA DIVISÓRIA */
+hr {
+    max-width: 900px;
+    margin: 40px auto;
+    border: none;
+    border-top: 2px solid #ba8c63;
+    opacity: 0.5;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background: #3b2f2f;
+    color: #fff;
+    padding: 20px;
+    font-size: 0.9rem;
+    border-top: 4px solid #ba8c63;
+    margin-top: 40px;
+}
+
+.capa-livro {
+    width: 200px;
+    display: block;
+    margin: 0 auto 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+

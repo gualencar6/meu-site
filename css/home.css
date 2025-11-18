@@ -1,0 +1,109 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILO GERAL */
+body {
+    font-family: "Georgia", serif;
+    background-color: #f4f1ea;
+    color: #2b2b2b;
+    line-height: 1.6;
+    padding: 0 10px;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #3b2f2f, #5c4438);
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 4px solid #ba8c63;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+header nav p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* MAIN */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* SEÇÕES */
+section {
+    margin-bottom: 40px;
+}
+
+section h2, section h3 {
+    color: #5c4438;
+    border-left: 5px solid #ba8c63;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+/* IMAGENS */
+img {
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+/* LISTA DE LIVROS */
+.janelas {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.janelas li {
+    background: #e9ded2;
+    padding: 12px;
+    border-radius: 8px;
+    transition: 0.3s;
+    border: 1px solid #c9b7a2;
+}
+
+.janelas li:hover {
+    background: #d8c4ad;
+    transform: translateX(5px);
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+    color: #3b2f2f;
+    font-weight: bold;
+    font-size: 1.05rem;
+}
+
+a:hover {
+    color: #8b5e3c;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #3b2f2f;
+    color: #fff;
+    border-top: 4px solid #ba8c63;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
